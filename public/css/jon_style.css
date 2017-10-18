@@ -1,0 +1,67 @@
+/*
+  Мои стили. Шаблон старый, с бутстрапами конфликтует
+  Проще сделать свое...
+ */
+.error, .success {
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+.error {
+    border: 1px solid red;
+    background-color: #ffd6c6;
+    color: red;
+}
+
+.error ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.success {
+    border: 1px solid green;
+    background-color: #d1f9da;
+    color: green;
+}
+
+.col_13 {
+    margin: 10px;
+    padding: 5px;
+    width: 280px;
+    float: left;
+    position: relative;
+    /*text-align: justify;*/
+    border: 1px solid #ccd0d2;
+    border-radius: 5px;
+}
+
+a { color:#78bbe6;}
+.blogauthor {background-color: #f4f4f4;}
+.children {margin-left: 20px;}
+.cancel-reply-link {display: none; margin-left: 45%}
+.img-center {
+    padding-left: 40px;
+}
+
+.ajax_result {
+    background-color: #f0f2f0;
+    border: 2px solid #2c8db8;
+    border-radius: 6px;
+    padding: 20px;
+    position: fixed;
+    left: 35%;
+    top: 45%;
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    display: none;
+    z-index: 1001;
+}
+/*если много категорий - в width: 500px не помещается...*/
+.blogPagination { margin: 10px; padding: 5px; width: 500px; float: left; position: relative; border: none; }
+.blog_page_content { margin:0; padding:0; float:right; }
+.blog_page_content .comment img.userpic { border:1px solid #dedede; margin:0 16px 0 0; padding:0; float:left; }
